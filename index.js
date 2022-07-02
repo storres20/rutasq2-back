@@ -5,8 +5,8 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:3000" //ruta para prueba en local
-  //origin: "https://bs20-front.netlify.app" //deploy on Netlify
+  //origin: "http://localhost:3000" //ruta para prueba en local
+  origin: "https://rutasq2.netlify.app/" //deploy on Netlify
 };
 
 app.use(cors(corsOptions));
